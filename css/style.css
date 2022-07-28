@@ -19,3 +19,29 @@ Header slider section
 .slider-image {
     filter: brightness(50%);
 }
+
+@media screen and (max-width:576px) {
+    .slider-info {
+        width: 70% !important;
+        top: 25% !important;
+    }
+
+    .slider-info h1 {
+        font-size: 100%;
+    }
+
+    .slider-info p {
+        font-size: 60% !important;
+    }
+
+    .slider-info button {
+        font-size: 55%;
+        padding: 5px 20px !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .slider-info {
+        top: 40% !important;
+    }
+}
