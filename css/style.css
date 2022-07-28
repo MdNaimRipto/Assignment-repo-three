@@ -1,14 +1,21 @@
-/*------------- 
-slider section 
+/*-----------
+common style
 -------------*/
-.slider-image {
-    filter: brightness(50%);
-}
-
-.slider-info button:hover {
-    background-color: #289BDE;
-}
-
 .common-bg {
     background-color: #289BDE;
+}
+
+.common-color {
+    color: #289BDE;
+}
+
+.common-button:hover {
+    background-color: #289BDE;
+}
+
+/*-------------------- 
+Header slider section 
+----------------------*/
+.slider-image {
+    filter: brightness(50%);
 }
