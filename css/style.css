@@ -20,6 +20,18 @@ Header slider section
     filter: brightness(50%);
 }
 
+/*--------------
+ Footer section 
+ --------------*/
+.facebook-link {
+    padding: 9px 12px;
+    border-radius: 100%;
+    font-size: 15px;
+}
+
+/*------------
+ Media Query 
+ ------------*/
 @media screen and (max-width:576px) {
     .slider-info {
         width: 70% !important;
