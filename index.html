@@ -227,17 +227,56 @@
 
         <!-- Regester section starting -->
         <section id="regester">
-            <div class="d-flex justify-content-between align-items-center px-5 py-5 rounded my-5 common-bg">
-                <div class="w-50">
+            <div
+                class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between align-items-center px-5 py-5 rounded my-5 common-bg">
+                <div class="text-center text-sm-center text-md-center text-lg-start">
                     <h1 class="text-light mt-4">Ready to join?</h1>
-                    <p class="text-light mb-4">are you ready to join our course? If you then click the regester button
-                        and
-                        make the best
-                        Dicision of your life.</p>
+                    <p class="text-light mb-5">are you ready to join our course? If you then click the register <br>
+                        button
+                        and make the best Dicision of your life.</p>
                 </div>
                 <div>
-                    <button class="btn btn-light py-2 px-3 common-color my-4">Regester Now</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light py-2 px-3 common-color" data-bs-toggle="modal"
+                        data-bs-target="#registration-modal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="registration-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Fill up the
+                                        Regestration Form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <input class="mx-auto mb-4 border-0 rounded py-3 px-4 w-100" type="text"
+                                        placeholder="First name" required><br>
+                                    <input class="mx-auto mb-4 border-0 rounded py-3 px-4 w-100" type="text"
+                                        placeholder="Last name" required><br>
+                                    <input class="mx-auto mb-4 border-0 rounded py-3 px-4 w-100" type="email"
+                                        placeholder="Enter Email" required><br>
+                                    <input class="mx-auto mb-4 border-0 rounded py-3 px-4 w-100" type="password"
+                                        placeholder="Enter password" required><br>
+                                    <input class="mx-auto mb-4 border-0 rounded py-3 px-4 w-100" type="password"
+                                        placeholder="Confirm password" required><br>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- Regester section Ending -->
