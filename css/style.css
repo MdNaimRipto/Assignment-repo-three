@@ -1,0 +1,14 @@
+/*------------- 
+slider section 
+-------------*/
+.slider-image {
+    filter: brightness(50%);
+}
+
+.slider-info button:hover {
+    background-color: #289BDE;
+}
+
+.common-bg {
+    background-color: #289BDE;
+}
